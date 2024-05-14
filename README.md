@@ -12,7 +12,7 @@ The chart configuration is done in the `values.yaml` file.
 ## Usage
 
 ### Installation from helm registry
-The most recent versions of Helm chart packages are published in the [SCS registry](https://registry.scs.community/harbor/projects/31/repositories/prometheus-openstack-exporter/artifacts-tab).
+The most recent versions of Helm chart packages are published in the [SCS registry](https://registry.scs.community/harbor/projects/31/repositories/prometheus-openstack-exporter/artifacts-tab?publicAndNotLogged=yes).
 Explore the available versions and install the Helm chart package as follows:
 ```bash
 helm upgrade --install prometheus-openstack-exporter oci://registry.scs.community/openstack-exporter/prometheus-openstack-exporter --version <version> 
